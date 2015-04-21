@@ -29,7 +29,7 @@
       <input type='text' name='salary' />
       <input type='text' name='superssn' />
       <input type='text' name='dno' />
-      <inpug type='submit' />
+      <input type='submit' />
     </form>
   </body>
 </html>

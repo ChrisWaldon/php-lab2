@@ -1,7 +1,7 @@
 <?php
 	include('access.php');	
 	echo $_POST['fname'];
-	mysql_query('insert into employee values ("'
+	mysql_query('insert into employee(fname, minit, lname, ssn, bdate, address, sex, salary, superssn, dno) values ("'
 			.$_POST['fname'].'", "'
 			.$_POST['minit'].'", "'
 			.$_POST['lname'].'", "'

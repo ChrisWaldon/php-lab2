@@ -1,5 +1,6 @@
 <?php
 	include('access.php');	
+	echo $_POST['fname'];
 	mysql_query('insert into employee values ("'
 			.$_POST['fname'].'", "'
 			.$_POST['minit'].'", "'
@@ -16,8 +17,9 @@
 <html>
   <body>
     <form action='InsertEmployee.php' method='post'>
-    	<label for="fname">First Name:</label>
+   	  <label for="fname">First Name:</label>
       <input type='text' name='fname' />
+      <br>
       <input type='text' name='minit' />
       <input type='text' name='lname' />
       <input type='text' name='ssn' />

@@ -20,15 +20,33 @@
    	  <label for="fname">First Name:</label>
       <input type='text' name='fname' />
       <br>
+   	  <label for="fname">First Name:</label>
       <input type='text' name='minit' />
+      <br>
+   	  <label for="fname">First Name:</label>
       <input type='text' name='lname' />
+      <br>
+   	  <label for="fname">First Name:</label>
       <input type='text' name='ssn' />
+      <br>
+   	  <label for="fname">First Name:</label>
       <input type='text' name='bdate' />
+      <br>
+   	  <label for="fname">First Name:</label>
       <input type='text' name='address' />
+      <br>
+   	  <label for="fname">First Name:</label>
       <input type='text' name='sex' />
+      <br>
+   	  <label for="fname">First Name:</label>
       <input type='text' name='salary' />
+      <br>
+   	  <label for="fname">First Name:</label>
       <input type='text' name='superssn' />
+      <br>
+   	  <label for="fname">First Name:</label>
       <input type='text' name='dno' />
+      <br>
       <input type='submit' />
     </form>
   </body>

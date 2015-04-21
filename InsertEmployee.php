@@ -20,31 +20,31 @@
    	  <label for="fname">First Name:</label>
       <input type='text' name='fname' />
       <br>
-   	  <label for="fname">First Name:</label>
+   	  <label for="fname">Middle Initial:</label>
       <input type='text' name='minit' />
       <br>
-   	  <label for="fname">First Name:</label>
+   	  <label for="fname">Last Name:</label>
       <input type='text' name='lname' />
       <br>
-   	  <label for="fname">First Name:</label>
+   	  <label for="fname">Social Security Number:</label>
       <input type='text' name='ssn' />
       <br>
-   	  <label for="fname">First Name:</label>
+   	  <label for="fname">Birth Date:</label>
       <input type='text' name='bdate' />
       <br>
-   	  <label for="fname">First Name:</label>
+   	  <label for="fname">Address:</label>
       <input type='text' name='address' />
       <br>
-   	  <label for="fname">First Name:</label>
+   	  <label for="fname">Sex:</label>
       <input type='text' name='sex' />
       <br>
-   	  <label for="fname">First Name:</label>
+   	  <label for="fname">Salary:</label>
       <input type='text' name='salary' />
       <br>
-   	  <label for="fname">First Name:</label>
+   	  <label for="fname">Supervisor Ssn:</label>
       <input type='text' name='superssn' />
       <br>
-   	  <label for="fname">First Name:</label>
+   	  <label for="fname">Department Number:</label>
       <input type='text' name='dno' />
       <br>
       <input type='submit' />

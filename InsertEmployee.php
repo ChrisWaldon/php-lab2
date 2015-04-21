@@ -1,7 +1,6 @@
 <?php
 	include('access.php');	
-	echo $_POST['fname'];
-	mysql_query('insert into employee(fname, minit, lname, ssn, bdate, address, sex, salary, superssn, dno) values ("'
+	$result = @mysql_query('insert into employee(fname, minit, lname, ssn, bdate, address, sex, salary, superssn, dno) values ("'
 			.$_POST['fname'].'", "'
 			.$_POST['minit'].'", "'
 			.$_POST['lname'].'", "'
@@ -13,6 +12,11 @@
 			.$_POST['superssn'].'", '
 			.$_POST['dno'].');'
 			);
+	if (!$result) {
+		echo '<p>There was a problem inserting. Please try again.</p>';
+	} else {
+        echo '<p>Inserted Successfully</p>';
+	}
 ?>
 <html>
   <body>

@@ -16,6 +16,7 @@
 <html>
   <body>
     <form action='InsertEmployee.php' method='post'>
+    	<label for="fname">First Name:</label>
       <input type='text' name='fname' />
       <input type='text' name='minit' />
       <input type='text' name='lname' />

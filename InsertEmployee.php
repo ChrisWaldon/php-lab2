@@ -1,6 +1,21 @@
+<?php
+	include('access.php');	
+	mysql_query('insert into employee values ("'
+			.$_POST['fname'].'", "'
+			.$_POST['minit'].'", "'
+			.$_POST['lname'].'", "'
+			.$_POST['ssn'].'", "'
+			.$_POST['bdate'].'", "'
+			.$_POST['address'].'", "'
+			.$_POST['sex'].'", '
+			.$_POST['salary'].', "'
+			.$_POST['superssn'].'", '
+			.$_POST['dno'].');'
+			);
+?>
 <html>
   <body>
-    <form action='employeeInsert.php' method='post'>
+    <form action='InsertEmployee.php' method='post'>
       <input type='text' name='fname' />
       <input type='text' name='minit' />
       <input type='text' name='lname' />

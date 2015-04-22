@@ -1,12 +1,9 @@
 <?php
 	include('access.php');	
-	echo 'insert into dept_locations(dnumber, dlocation) values ('
+	$sql = 'insert into dept_locations(dnumber, dlocation) values ('
 			.$_POST['dnumber'].', "'
 			.$_POST['dlocation'].'");';
-	$result = mysql_query('insert into department(dnumber, dlocation) values ('
-			.$_POST['dnumber'].', "'
-			.$_POST['dlocation'].'");'
-			);
+	$result = mysql_query($sql);
 	if (!$result) {
 		echo '<p>There was a problem inserting. Please try again.</p>';
 	} else {

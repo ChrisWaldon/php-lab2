@@ -1,8 +1,8 @@
 <?php
 	include('access.php');	
-	$sql = 'insert into works_on(essn, pnum, hours) values ("'
+	$sql = 'insert into works_on(essn, pno, hours) values ("'
 			.$_POST['essn'].'", '
-			.$_POST['pnum'].', '
+			.$_POST['pno'].', '
 			.$_POST['hours'].');';
 	echo $sql;
 	$result = @mysql_query($sql);
@@ -19,7 +19,7 @@
       <input type='text' name='essn' />
       <br>
    	  <label for="fname">Project Number:</label>
-      <input type='text' name='pnum' />
+      <input type='text' name='pno' />
       <br>
    	  <label for="fname">Hours:</label>
       <input type='text' name='hours' />

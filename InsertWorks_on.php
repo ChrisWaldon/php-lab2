@@ -4,7 +4,6 @@
 			.$_POST['essn'].'", '
 			.$_POST['pno'].', '
 			.$_POST['hours'].');';
-	echo $sql;
 	$result = @mysql_query($sql);
 	if (!$result) {
 		echo '<p>There was a problem inserting. Please try again.</p>';

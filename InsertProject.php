@@ -1,11 +1,12 @@
 <?php
 	include('access.php');	
-	$result = @mysql_query('insert into project(pname, pnumber, plocation, dnum) values ("'
+	$sql = 'insert into project(pname, pnumber, plocation, dnum) values ("'
 			.$_POST['pname'].'", '
 			.$_POST['pnumber'].', "'
 			.$_POST['plocation'].'", "'
-			.$_POST['dnum'].');'
-			);
+			.$_POST['dnum'].');';
+	echo $sql;
+	$result = @mysql_query($sql);
 	if (!$result) {
 		echo '<p>There was a problem inserting. Please try again.</p>';
 	} else {

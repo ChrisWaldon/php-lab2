@@ -3,7 +3,7 @@
 	$sql = 'insert into project(pname, pnumber, plocation, dnum) values ("'
 			.$_POST['pname'].'", '
 			.$_POST['pnumber'].', "'
-			.$_POST['plocation'].'", "'
+			.$_POST['plocation'].'", '
 			.$_POST['dnum'].');';
 	echo $sql;
 	$result = @mysql_query($sql);

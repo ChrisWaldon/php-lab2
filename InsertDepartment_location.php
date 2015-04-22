@@ -1,6 +1,6 @@
 <?php
 	include('access.php');	
-	echo 'insert into department(dnumber, dlocation) values ('
+	echo 'insert into department_location(dnumber, dlocation) values ('
 			.$_POST['dnumber'].', "'
 			.$_POST['dlocation'].'");';
 	$result = @mysql_query('insert into department(dnumber, dlocation) values ('

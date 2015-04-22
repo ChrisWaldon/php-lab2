@@ -6,6 +6,7 @@
 			);
 	if (!$result) {
 		echo '<p>There was a problem inserting. Please try again.</p>';
+		echo mysql_error($result);
 	} else {
         echo '<p>Inserted Successfully</p>';
 	}

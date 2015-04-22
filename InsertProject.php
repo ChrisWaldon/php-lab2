@@ -5,7 +5,6 @@
 			.$_POST['pnumber'].', "'
 			.$_POST['plocation'].'", '
 			.$_POST['dnum'].');';
-	echo $sql;
 	$result = @mysql_query($sql);
 	if (!$result) {
 		echo '<p>There was a problem inserting. Please try again.</p>';
